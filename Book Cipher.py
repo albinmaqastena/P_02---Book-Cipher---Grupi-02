@@ -42,7 +42,7 @@ if __name__ == "__main__":
     if zgjedhja == '1':
         mesazhi = input("Shkruani mesazhin për enkriptim: ")
         koduar = enkripto(mesazhi, path_librit)
-        print("Mesazhi i koduar:", koduar)
+        print("Mesazhi i koduar :", koduar)
     elif zgjedhja == '2':
         pozitat = input("Shkruani pozitat për dekriptim (p.sh. 1 2 3): ")
         dekoduar = dekripto(pozitat, path_librit)
