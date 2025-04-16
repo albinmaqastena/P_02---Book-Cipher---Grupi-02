@@ -31,6 +31,25 @@ def enkripto(mesazh, libri_path):
 
     return ' '.join(pozitat)
 
+if __name__ == "__main__":
+    print("Zgjidhni një veprim:")
+    print("1 - Enkripto mesazhin")
+    print("2 - Dekripto mesazhin")
+    zgjedhja = input("Zgjedhja juaj (1/2): ").strip()
+
+    path_librit = input("Jep rrugën e librit (p.sh. book.txt): ").strip()
+
+    if zgjedhja == '1':
+        mesazhi = input("Shkruani mesazhin për enkriptim: ")
+        koduar = enkripto(mesazhi, path_librit)
+        print("Mesazhi i koduar:", koduar)
+    elif zgjedhja == '2':
+        pozitat = input("Shkruani pozitat për dekriptim (p.sh. 1 2 3): ")
+        dekoduar = dekripto(pozitat, path_librit)
+        print("Mesazhi i dekriptuar:", dekoduar)
+    else:
+        print("Zgjedhje e pavlefshme.")
+
 
 
 
