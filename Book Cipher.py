@@ -14,6 +14,23 @@ def lexo_pastro_librin(path):
         return[]
 
 
+def enkripto(mesazh, libri_path):
+    content = lexo_dhe_pastro_librin(libri_path)
+    if not content:
+        return "Gabim gjatë leximit të librit."
+
+    fjale_ne_mesazh = pastro_tekstin(mesazh).split()
+    pozitat = []
+
+    for fjala in fjale_ne_mesazh:
+        try:
+            index = content.index(fjala) + 1
+            pozitat.append(str(index))
+        except ValueError:
+            pozitat.append('?')
+
+    return ' '.join(pozitat)
+
 
 
 
