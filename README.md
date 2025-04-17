@@ -11,10 +11,14 @@ Dekriptojë një mesazh të koduar me pozita dhe ta rikthejë në tekstin origji
 
 Përdor një qasje të thjeshtë, ku secila fjalë në mesazh shndërrohet në pozitën e parë ku gjendet ajo fjalë në libër.
 
-📄 Struktura e Kodit
-Funksionet kryesore:
+📄 Struktura e Kodit:
+📘 Funksionet për përpunimin e librit:
+
 pastro_tekstin(tekst)
-Ky funksion heq shenjat e pikësimit dhe kthen tekstin në shkronja të vogla, duke e pastruar për përdorim më të lehtë.
+Heq të gjitha shenjat e pikësimit nga një tekst dhe e kthen atë në shkronja të vogla. Kjo ndihmon që krahasimi i fjalëve të bëhet më i saktë dhe pa ndikuar nga formatimi i ndryshëm.
+
+lexo_dhe_pastro_librin(path)
+Lexon një skedar teksti (libër), e pastron përmes funksionit pastro_tekstin, dhe e ndan në lista fjalësh. Nëse skedari nuk gjendet, shfaqet një mesazh gabimi dhe kthehet një listë bosh.
 
 
 Albin Maqastena <albin.maqastena@student.uni-pr.edu>
