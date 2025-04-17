@@ -39,13 +39,13 @@ def dekripto(pozitat, libri_path):
     fjalet = []
     for poz in pozitat.split():
         if poz.isdigit():
-            index = int(poz) - 1  # -1 sepse lista është 0-based
+            index = int(poz) - 1
             if 0 <= index < len(content):
                 fjalet.append(content[index])
             else:
-                fjalet.append('?')  # Pozitë jashtë kufijve
+                fjalet.append('?')
         else:
-            fjalet.append('?')  # Pozitë jo-valide
+            fjalet.append('?')
 
     return ' '.join(fjalet)
 
