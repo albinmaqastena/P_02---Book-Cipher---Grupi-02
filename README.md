@@ -1,5 +1,46 @@
 # P_02---Book-Cipher---Grupi-02
 
+Albin Maqastena <albin.maqastena@student.uni-pr.edu>
+6:24 PM (1 hour ago)
+to me
+
+4. **Ekzekuto skriptin**:
+   - Ekzekuto skriptin me komandën:
+     ```bash
+     python book_cipher.py
+     ```
+
+5. **Zgjidhni një veprim**:
+   - Pasi të ekzekutohet skripti, do të shfaqen opsionet për të zgjedhur mes dy veprimeve:
+     - `1 - Enkripto mesazhin`
+     - `2 - Dekripto mesazhin`
+
+6. **Jepni rrugën e librit**:
+   - Pasi të zgjedhni veprimin (enkriptim ose dekriptim), do t’ju kërkohet të jepni rrugën e librit që do të përdorni, p.sh.:
+     ```bash
+     Jep rrugën e librit (p.sh. libri.txt): /path/to/your/book.txt
+     ```
+
+7. **Për enkriptim**:
+   - Nëse zgjidhni `1 - Enkripto mesazhin`, do t’ju kërkohet të shkruani mesazhin që dëshironi të enkriptosh:
+     ```bash
+     Shkruani mesazhin për enkriptim: kjo është një mesazh i fshehtë
+     ```
+   - Programi do të kthejë pozitat e fjalëve nga libri që përputhen me mesazhin e dhënë.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 8. **Për dekriptim**:
     - Nëse zgjidhni `2 - Dekripto mesazhin`, do t’ju kërkohet të shkruani pozitat e mesazhit të koduar (të ndara me hapësira), p.sh.:
       ```bash
