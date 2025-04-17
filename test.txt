@@ -1,0 +1,16 @@
+Ky është një tekst shembull që përdoret për të enkriptuar dhe dekriptuar mesazhe duke përdorur metodën book cipher.
+Siguria e informacionit është shumë e rëndësishme në botën moderne të teknologjisë dhe komunikimit.
+Çdo mesazh që ne dërgojmë mund të përmbajë informacione personale ose të ndjeshme, prandaj mbrojtja e tyre është një domosdoshmëri.
+
+Në kohët moderne, teknologjia është zhvilluar me hapa të shpejtë, duke sjellë përfitime të mëdha, por edhe rreziqe të reja në fushën e sigurisë së të dhënave.
+Përdoruesit duhet të jenë të vetëdijshëm për mënyrat si mund të mbrojnë informacionin e tyre personal dhe të përdorin mjete të ndryshme për të ruajtur privatësinë.
+
+Kriptografia është një nga mjetet më të rëndësishme në mbrojtjen e informacionit.
+Që nga kohët e lashta, njerëzit kanë përdorur forma të ndryshme për të fshehur mesazhet e tyre.
+Book cipher është një metodë klasike dhe efektive që mbështetet në një tekst të zakonshëm për të koduar mesazhe të fshehta.
+Kjo metodë është e thjeshtë për t'u kuptuar, por mjaft e sigurt nëse libri nuk është i njohur për palët e treta.
+
+Në këtë projekt, ne përdorim një skedar të quajtur book.txt që përmban tekstin referues për enkriptim dhe dekriptim.
+Sa më i gjatë dhe kompleks të jetë teksti, aq më e madhe është siguria që ofron metoda.
+
+Përmes këtij shembulli, studentët dhe entuziastët e programimit mund të mësojnë bazat e kriptografisë dhe të zbatojnë një algoritëm të thjeshtë por funksional për komunikim të sigurt.

@@ -1,0 +1,43 @@
+Titulli: Enkriptimi i Mesazheve me Book Cipher ne Python
+
+Përshkrimi i Projektit:
+Ky projekt ka për qëllim krijimin e një programi të thjeshtë në Python që përdor metodën e njohur "Book Cipher" për enkriptimin dhe dekriptimin e mesazheve. Metoda funksionon duke përdorur një tekst (zakonisht një libër) si "çelës" për të kthyer fjalët e një mesazhi në pozitat e tyre brenda librit. E njëjta rrugë mund të përdoret për të deshifruar pozitat dhe për të rikthyer mesazhin origjinal.
+
+Funksionet kryesore të programit:
+
+Pastro tekstin: Hiqen të gjitha shenjat e pikësimit dhe të gjitha shkronjat kthehen në të vogla për të standardizuar krahasimin e fjalëve.
+
+Lexo librin dhe pastro përmbajtjen: Një funksion i veçantë lexon një file të jashtëm (psh. "book.txt") dhe e pastron atë nga pikësimi dhe shkronjat e mëdha.
+
+Enkriptimi i mesazhit: Krahason secilën fjalë të mesazhit me fjalët në përmbajtjen e librit dhe kthen një varg pozicionesh përkatëse.
+
+Dekriptimi i mesazhit: Merr pozitat si input dhe i konverton ato në fjalë duke përdorur të njëjtin libër.
+
+Përparësitë e metodës Book Cipher:
+
+E thjeshtë për t’u zbatuar.
+
+Mjaft e vështirë për t’u deshifruar pa e ditur tekstin e saktë që është përdorur si "libër".
+
+Si funksionon programi:
+
+Përdoruesi zgjedh nëse do të enkriptojë apo dekriptojë një mesazh.
+
+Jepet rruga (path) e file-it të librit që do të përdoret.
+
+Për enkriptim: jepet mesazhi, dhe programi kthen pozitat.
+
+Për dekriptim: jepen pozitat dhe programi kthen mesazhin origjinal.
+
+Shembull përdorimi:
+
+Libri: "book.txt" përmban tekstin e pastër (pa pikësim).
+
+Mesazhi: "siguria e informacionit"
+
+Output enkriptuar: "5 9 23"
+
+Output dekriptuar: "siguria e informacionit"
+
+Përfundim:
+Ky projekt përfaqëson një mënyrë interesante për të studiuar konceptet e sigurisë informatike dhe enkriptimit përmes një metode klasike dhe lehtësisht të implementueshme në Python. Struktura e ndarë e funksioneve dhe ndërfaqja miqësore me përdoruesin e bëjnë këtë kod praktik dhe të kuptueshëm për fillestarët.

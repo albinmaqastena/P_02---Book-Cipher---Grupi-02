@@ -4,7 +4,7 @@ def pastro_tekstin(tekst):
     return tekst.translate(str.maketrans('', '', string.punctuation)).lower()
 
 
-def lexo_pastro_librin(path):
+def lexo_dhe_pastro_librin(path):
     try:
         with open(path, 'r', encoding='utf-8') as file:
             content = file.read()
@@ -30,6 +30,25 @@ def enkripto(mesazh, libri_path):
             pozitat.append('?')
 
     return ' '.join(pozitat)
+
+def dekripto(pozitat, libri_path):
+    content = lexo_dhe_pastro_librin(libri_path)
+    if not content:
+        return "Gabim gjatë leximit të librit."
+
+    fjalet = []
+    for poz in pozitat.split():
+        if poz.isdigit():
+            index = int(poz) - 1  # -1 sepse lista është 0-based
+            if 0 <= index < len(content):
+                fjalet.append(content[index])
+            else:
+                fjalet.append('?')  # Pozitë jashtë kufijve
+        else:
+            fjalet.append('?')  # Pozitë jo-valide
+
+    return ' '.join(fjalet)
+
 
 if __name__ == "__main__":
     print("Zgjidhni një veprim:")
