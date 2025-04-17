@@ -1,5 +1,22 @@
 # P_02---Book-Cipher---Grupi-02
 
+📚 Book Cipher në Python
+Ky është një projekt në Python që implementon një Book Cipher (shifrim me libër). Ky është një lloj i kriptografisë që përdor një tekst të njohur, si një libër, për të koduar dhe dekoduar mesazhe. Ky projekt është një shembull i thjeshtë i shifrimit dhe deshifrimit të mesazheve duke përdorur pozitat e fjalëve në një libër si çelës për kriptimin dhe dekriptimin.
+
+🚀 Çfarë bën ky program?
+Ky program lejon përdoruesin të:
+
+Enkriptojë një mesazh duke përdorur pozitat e fjalëve në një libër si çelës.
+Dekriptojë një mesazh të koduar me pozita dhe ta rikthejë në tekstin origjinal.
+
+Përdor një qasje të thjeshtë, ku secila fjalë në mesazh shndërrohet në pozitën e parë ku gjendet ajo fjalë në libër.
+
+📄 Struktura e Kodit
+Funksionet kryesore:
+pastro_tekstin(tekst)
+Ky funksion heq shenjat e pikësimit dhe kthen tekstin në shkronja të vogla, duke e pastruar për përdorim më të lehtë.
+
+
 Albin Maqastena <albin.maqastena@student.uni-pr.edu>
 6:24 PM (1 hour ago)
 to me
