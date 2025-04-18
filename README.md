@@ -1,6 +1,8 @@
 # P_02---Book-Cipher---Grupi-02
 
-
+Albin Maqastena <albin.maqastena@student.uni-pr.edu>
+6:24 PM (1 hour ago)
+to me
 
 4. **Ekzekuto skriptin**:
    - Ekzekuto skriptin me komandën:
